@@ -1,0 +1,2 @@
+# EmailDb
+Python Practicce
