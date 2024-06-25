@@ -1,6 +1,6 @@
 from sqlite3 import connect
 
-conn = connect('py3.sqlite')
+conn = connect('emaildb.sqlite')
 cur = conn.cursor()
 
 cur.execute('DROP TABLE IF EXISTS Counts')
